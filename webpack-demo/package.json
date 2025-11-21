@@ -1,0 +1,43 @@
+{
+  "name": "single-spa",
+  "version": "1.0.0",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "start:server": "http-server dist",
+    "dev": "webpack serve --config webpack.dev.js",
+    "server": "node server.js",
+    "build": "webpack --config webpack.prod.js",
+    "build:lib": "webpack --config webpack.lib.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/lodash": "^4.17.20",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "express": "^5.1.0",
+    "html-webpack-plugin": "^5.6.4",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.9.4",
+    "sass": "^1.94.2",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-middleware": "^7.4.5",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1",
+    "workbox-webpack-plugin": "^7.4.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "lodash": "^4.17.21",
+    "whatwg-fetch": "^3.6.20"
+  }
+}

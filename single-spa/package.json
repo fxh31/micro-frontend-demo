@@ -1,0 +1,29 @@
+{
+  "name": "single-spa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-react": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-config-single-spa-ts": "^8.0.0",
+    "webpack-dev-server": "^5.2.2",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "single-spa": "^6.0.3"
+  }
+}

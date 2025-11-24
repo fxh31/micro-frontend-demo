@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Spa</title>
+</head>
+
+<!-- <script type="importmap">
+  {
+    "imports": {
+      "single-spa": "https://vue.microfrontends.app/deps/npm:single-spa@7.0.0-beta.1/lib/esm/single-spa.min.js"
+    }
+  }
+</script> -->
+<body>
+  <div>
+    <button id="about-btn">about app</button>
+    <button id="home-btn">home app</button>
+    <button id="react-btn">react app</button>
+  </div>
+  <!-- 注意: 开发环境下会根据 webpack.config.js 的 entry 自动打包注入  dist/index.html 中, 不需要手动引入(只需要定义好 entry 即可) -->
+  <!-- <script src="./index.js" type="module"></script> -->
+   <!-- <script src="/src/ferhannah-root-config.js" type="module"></script> -->
+   <script>
+    
+    // const btn = document.querySelector('#about-btn');
+    // btn.addEventListener('click', () => {
+    //   navigateTo('/about');
+    // });
+
+    
+    // function navigateTo(path) {
+    //   window.history.pushState({}, '', path);
+    //   // window.dispatchEvent(new PopStateEvent('popstate'));
+    // } 
+   </script>
+</body>
+</html>

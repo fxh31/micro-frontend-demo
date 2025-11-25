@@ -11,10 +11,15 @@
   "description": "",
   "devDependencies": {
     "@babel/preset-react": "^7.28.5",
+    "@vitejs/plugin-vue": "^5.2.4",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.5",
     "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "vue-loader": "^17.4.2",
+    "vue-template-compiler": "^2.7.16",
     "webpack": "^5.103.0",
     "webpack-cli": "^6.0.1",
     "webpack-config-single-spa-ts": "^8.0.0",
@@ -22,8 +27,6 @@
     "webpack-merge": "^6.0.1"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
     "single-spa": "^6.0.3"
   }
 }

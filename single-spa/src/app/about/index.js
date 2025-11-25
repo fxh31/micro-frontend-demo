@@ -3,7 +3,7 @@ let domElAbout;
 export const bootstrap = (props) =>
   Promise.resolve().then((res) => {
     domElAbout = document.createElement("h1");
-    domElAbout.id = "app about";
+    domElAbout.id = "about";
     document.body.appendChild(domElAbout);
   });
 

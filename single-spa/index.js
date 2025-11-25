@@ -3,6 +3,7 @@ import './src/ferhannah-root-config'
 const btn_about = document.querySelector('#about-btn');
 const btn_home = document.querySelector('#home-btn');
 const btn_react = document.querySelector('#react-btn');
+const btn_vue = document.querySelector('#vue-btn');
 
 btn_about.addEventListener('click', () => {
   navigateTo('/about');  
@@ -12,6 +13,9 @@ btn_home.addEventListener('click', () => {
 });
 btn_react.addEventListener('click', () => {
   navigateTo('/react');
+});
+btn_vue.addEventListener('click', () => {
+  navigateTo('/vue');
 });
 function navigateTo(path) {
   window.history.pushState({}, '', path);

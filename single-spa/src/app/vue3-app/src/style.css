@@ -77,3 +77,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#vue-app {
+  border: 1px solid yellowgreen;
+}
+
+/* 样式冲突与 react 冲突，则会使用最后一个加载好的样式 */
+.card {
+  background-color: rgb(236, 236, 73);
+}

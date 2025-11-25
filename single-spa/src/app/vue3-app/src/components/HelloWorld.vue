@@ -32,6 +32,7 @@ const count = ref(0)
     >.
   </p>
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <h3>vue app 的样式同样会泄露出来</h3>
 </template>
 
 <style scoped>

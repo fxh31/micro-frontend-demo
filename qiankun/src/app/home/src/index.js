@@ -61,7 +61,6 @@ window.qiankunLifecycle = {
   bootstrap,
   mount,
   unmount,
-
 };
 
 // 导出生命周期 [citation:1]

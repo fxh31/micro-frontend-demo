@@ -23,3 +23,11 @@ qiankun/
 ## 项目启动
 
 启动项目需要按照主应用注册的地址启动。当注册的子应用都启动完成后，主应用再启动进行访问。
+
+```bash
+npm run start # home
+npm run server # vue3-app
+npm run dev # vue3-app-vite
+
+npm run start # qiankun
+```

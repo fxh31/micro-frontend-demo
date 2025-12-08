@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>micro-app</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- 让子应用在 iframe 沙箱中运行，避免脚本解析冲突 -->
+    <micro-app name='vue-app' url='http://localhost:5174/' iframe router-mode='search'></micro-app>
+    <micro-app name='react-app' url='http://localhost:5175/' iframe></micro-app>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
